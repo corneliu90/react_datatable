@@ -66,6 +66,7 @@ function App() {
 
   const searchChange = (event) => {
     setSearchUser(event.target.value);
+    setCurrentPage(1);
   };
 
   const filteredUsers = useMemo(() => {
